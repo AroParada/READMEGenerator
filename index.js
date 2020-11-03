@@ -29,6 +29,11 @@ inquirer
         message: 'please write a short description of your project'
     },
     {
+      type: 'input',
+      name: 'repoName',
+      message: 'What is your repos name?'
+  },
+    {
         type: 'checkbox',
         name: 'liscense',
         message: 'What kind of liscense should your project have?',
@@ -48,7 +53,7 @@ inquirer
       },
       {
         type: 'input',
-        name: 'moreinfo',
+        name: 'contributing',
         message: 'what does the user need to know about contributing to the repo',
 
       },
@@ -58,7 +63,8 @@ inquirer
           console.log('success', answers)
         
          var userInputString = generateMarkdown(answers)
-      
+         
+         return writeFileAsync("README.md", userInputString);
   })
 // function to write README file
 function writeToFile(fileName, data) {
