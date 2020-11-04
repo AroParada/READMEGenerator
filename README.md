@@ -1,10 +1,17 @@
-# fgsd/fsfg/fgsd
+# READMEGenerator
+  AroParada
+  READMEGenerator
   ## Description
-  gs
+  > command line that creates a README file
   ## license
   undefined
-  /## command
-  /## info/
-  /## contributing/
-  /## Questions/- Github Profile:[fsfg](www.github.com/fsfg)/ - Contact:sd
+  ## command
+  
+  ## info
+  'nothing
+  ## contributing
+  request git pull
+  ## Questions
+  - Github Profile:[AroParada](www.github.com/AroParada)
+  - Contact:haroldparada20@gmail.com
  

@@ -64,13 +64,9 @@ inquirer
         
          var userInputString = generateMarkdown(answers)
          
+         // function to write README file
          return writeFileAsync("README.md", userInputString);
   })
-// function to write README file
-function writeToFile(fileName, data) {
-
-}
-
 // function to initialize program
 function init() {
 
