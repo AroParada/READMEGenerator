@@ -1,18 +1,18 @@
-# dsf
+# READMEGenerator
   ![application gif](giphy.gif)
-  fsd
-  df
+  AroParada
+  READMEGenerator
   ## Description
-  > sdf
+  > Command line using node js that creates a README.MD file 
   ## license
   > undefined
   ## command
   > 
   ## info
-  > d
+  > must use node modules
   ## contributing
-  > v
+  > do a git pull
   ## Questions
-  - Github Profile:[fsd](https://www.github.com/fsd)
-  - Contact:f
+  - Github Profile:[AroParada](https://www.github.com/AroParada)
+  - Contact:haroldparada20@gmail.com
  
