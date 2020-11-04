@@ -60,13 +60,17 @@ inquirer
 
 
   ]).then(answers => {
-          console.log('success', answers)
+          // console.log('success', answers)
         
          var userInputString = generateMarkdown(answers)
          
          // function to write README file
          return writeFileAsync("README.md", userInputString);
   })
+  .then(() => {
+    console.log("Successfully wrote README.md");
+  })
+  .catch((err) => console.log(err));
 // function to initialize program
 function init() {
 

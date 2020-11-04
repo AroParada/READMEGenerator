@@ -6,15 +6,15 @@ function generateMarkdown(data) {
   ## Description
   > ${data.description}
   ## license
-  ${data.license}
+  > ${data.license}
   ## command
-  ${data.command}
+  > ${data.command}
   ## info
-  ${data.info}
+  > ${data.info}
   ## contributing
-  ${data.contributing}
+  > ${data.contributing}
   ## Questions
-  - Github Profile:[${data.username}](www.github.com/${data.username})
+  - Github Profile:[${data.username}](https://www.github.com/${data.username})
   - Contact:${data.email}
  `;
 
